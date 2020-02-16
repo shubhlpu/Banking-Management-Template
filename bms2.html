@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>
+bank of india
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+h1{
+font-family:algerian;
+text-align:center;
+color:blue;
+}
+h2{
+font-family:arial;
+color:blue;
+text-align:center;
+}
+body{
+background:blue;
+}
+#id1
+{
+background-color:white;
+width:1000px;
+height:200px;
+}
+#id3
+{
+background-color:white;
+margin-top:100px;
+width:400px;
+position:auto;
+float:left;
+}
+#id2
+{
+margin-top:50px;
+margin-left:400px;
+background-color:white;
+width:600px;
+height:355px;
+}
+#idm{
+background-color:white;
+width:1000px;
+height:800px;
+position:absolute;
+left:12%;
+right:20%;
+border-style: groove;
+border-color: shadowblack;
+border-bottom-right-radius: 30px 30px;
+border-bottom-left-radius: 30px 30px;
+}
+#bot{
+padding:10px;
+background-color:lightblue;
+color:blue;
+text-align:center;
+margin-top:100px;
+border-style:groove;
+border-bottom-right-radius: 20px 20px;
+border-bottom-left-radius: 20px 20px;
+border-color:shadowblack;
+}
+#td1{
+color:red;
+font-size:20;
+text-align:left;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: orange;
+border-style: groove;
+border-color: blue;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius: 10px 10px;
+border-top-right-radius: 10px 10px;
+border-top-left-radius: 10px 10px;
+padding:6px;
+    color: white;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+#c1{
+color:red;
+cursor:pointer;
+}
+.mySlides {
+display:none;
+}
+.imgsl1{
+margin-left:90px;
+border:1px solid blue
+}
+#th1{
+border-bottom-right-radius: 8px 8px;
+border-top-right-radius: 8px 8px;
+color:white;
+}
+table{
+border-bottom-right-radius: 8px 8px;
+border-top-right-radius: 8px 8px;
+}
+</style>
+</head>
+<body>
+<div id="idm">
+<div id="id1">
+<img src="Bank-Of-India.png" width="400" height="200">
+<img src="shubham.png" width="550" height="200">
+</div>
+<div id="id3">
+<form action="homebms.html">
+<table bgcolor="paleturquoise" height="250" width="400" cellpadding="5" bordercolor="lightblue">
+<tr>
+<th  align="left" id="th1" bgcolor="blue">Retail login</th>
+</tr>
+<tr>
+<td>
+<table bgcolor="paleturquoise" height="150" width="300">
+<tr>
+<td colspan="5"><b>USER ID:</b></td>
+<td colspan="10"><input type="text" placeholder="User Id" required> </td>
+</tr>
+<tr>
+<td colspan="5"><b>PASSWORD:</b></td>
+<td colspan="10"><input type="password" maxlength="10" placeholder="Password" required> </td>
+</tr>
+</table>
+</td></tr>
+<tr>
+<td colspan="10" id="td1"><i>Note:Password is case sensitive</i></td>
+</tr>
+<tr>
+<td colspan="8" align="center"><input type="submit" value="SUBMIT"></td>
+<td colspan="0" align="center"><input type="reset" value="RESET"></td>
+</tr>
+</table>
+</form>
+</div>
+<div id="id2">
+<center><h1>welcome to bank of india</h1><h2>banking managment service</h2></center><br>
+<div class="imgsl1" style="max-width:420px">
+ <img class="mySlides" src="boi1.jpg" style="width:100%" height="230">
+ <img class="mySlides" src="boi2.png" style="width:100%" height="230">
+  <img class="mySlides" src="boi3.png" style="width:100%" height="230">
+  <img class="mySlides" src="boi4.png" style="width:100%" height="230">
+  <img class="mySlides" src="boi5.png" style="width:100%" height="230">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="newuser.html"><input type="button" value="NEW USER"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="forgetpassword.html"><input type="button" value="FORGET PASSWORD"></a>
+</div>
+<div id="bot">
+IMPORTANT: In our constant endeavor to give you better service and user experience, we have enhanced our Internet Banking site. You may feel changes in the User Interface (look and feel). Please change your password regularly and keep your computer protected and updated with latest Antivirus and patches. Please do not click on any hyperlinks to reach to our site, but type our site address http://www.bankofindia.co.in
+<marquee>copyright &copy; bank of india</marquee>
+<center id="c1"><a href="https://starconnectcbs.bankofindia.com/BankAwayRetail/(S(tx54hm55bthph1ficfcxebyr))/docs/StarToken%20FAQ.pdf" target="_blank">Star Token FAQs </a>| <a href="https://starconnectcbs.bankofindia.com/BankAwayRetail/docs/Terms_Conditions_StarConnect.htm" target="_blank">Terms And Condition</a> | <a href="https://starconnectcbs.bankofindia.com/BankAwayRetail/docs/Disclaimer.htm" target="_blank">Disclaimer </a>| Contact Us</center>
+</div>
+</div>
+</body>
+</html>

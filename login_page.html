@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="Style3.css">
+<title>LogIn | LMS </title>
+<style>
+	.login
+		{
+			
+			text-align: center;
+			background-color: rgba(255,255,255,0.4);
+            border:solid 5px grey;
+            width:600px;
+            height: 300px;
+            margin-top: 125px;
+            margin-left: 450px;
+		}
+</style>
+</head>
+
+<body>
+	<div class="nav_head">
+		<p class="logo"><img src="image.png" width="100" height="100"></span><span style="color: white; margin-top: 50px; position: absolute; margin-left: 1px; font-weight: bold; font-family: cursive; font-size: 30px;">Learn</span></p>
+		<nav>
+			<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Books</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="Contact.html">Contact Us</a></li>
+			<li><a href="Feedback.html">Feedback</a></li>
+			<li><a href="login_page.html">Log In</a></li>
+			<li><a href="signup.html">Sign Up</a></li>
+			</ul>
+		</nav>
+	</div>
+	<form name="LogIn">
+	<div class="login">
+ 	<h1>Log In</h1><hr><br><br>
+ 	<div class="input">
+ 		 <abbr title="You can have maximum length of 15."><input style="height: 15%; width: 30%; text-align: center;" type="username" name="userid" placeholder="LogIn ID" maxlength="15" onfocus="must(this)" required></abbr><br><br>
+ 	    <abbr title="You can have maximum length of 15."><input style="height: 15%; width: 30%; text-align: center;" type="password" name="pswrd" placeholder="Password" maxlength="15" onfocus="must(this)" required></abbr><br><br>
+ 	</div>
+ 	
+ <input style="height: 13%; width: 15%;" onclick="check(this.form)" type="button" value="LogIn"/>
+ <input style="height: 13%; width: 15%;" type="Reset" value="Reset"/></a><br><br>
+ </div>
+
+</form>
+<script>
+		function must(x)
+		{
+			x.style.background="yellow"
+			
+		}
+		function check(form)
+		{
+			if(form.userid.value == "11613955" && form.pswrd.value == "password")
+          {
+           window.open('afterlogin.html')
+          }
+            else
+          {
+           alert("Error Password or Username")
+           }
+		}
+	</script>
+</body>
+
+</html>

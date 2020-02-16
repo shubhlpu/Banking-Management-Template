@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>Transfers</title>
+<style>
+.button { border: none;
+    color: white;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+font-size:16px;
+    display: inline-block;
+   cursor: pointer;
+ font-style:italic;
+font-weight:bold;
+}
+table{border-collapse:collapse; border-color:lightblue; cursor:pointer;}
+#abc{
+background-color:paleturquoise;
+width:100%;
+height:80px;}
+#id1{
+float:left;
+margin-top:10px;
+width:200px;
+height:301px;
+}
+#id2{
+background-color:paleturquoise;
+color:blue;
+width:1100px;
+margin-left:252px;
+margin-top:10px;
+height:50%;
+}
+#b1{
+color:red;
+}
+th{font-weight: bold;}
+td{ color:black;}
+hr{border-width:1px; border-color:grey;}
+#t1{
+border-collapse:collapse; border-color:lightblue;
+}
+#th1{font-weight: bold; color:white;}
+#th2{font-weight: normal; color:black;}
+.abcddd{
+	font-weight:bold;
+	display:inline-block;
+	font-size: 25px;
+	margin-bottom:20px;
+}
+</style>
+</head>
+<body>
+<table  id="abc" >
+<tr>
+<th style="text-align:right; color:darkblue;"><p class="abcddd">WELCOME Mr.Shubham Gupta </p><img src="2017-03-24.png" width="200" height="80"align="left">
+<a href="homebms.html"><img src="2017-03-28 (3).png" height="55" width="55"></a>&nbsp;
+<a href="bms2.html"><img src="2017-03-28 (2).png"></a> <th>
+</tr>
+</table>
+<table  border="0" style="width:100%;" background="lightblue">
+<tr>
+<th><a href="accounts.html" id="a1"><button class="button "  style="background-color:blue;">Account</button></a> </th>
+<th><a href="" id="a1"><button class="button " style="background-color:darkorange;">Transfer</button></a></th>
+<th><a href="taxpayment.html" id="a1"><button class="button " style="background-color:blue;">Tax Payment</button></a></th>
+<th><a href="demat.html" id="a1"><button class="button " style="background-color:blue;">Demat</button></a></th>
+<th><a href="option.html" id="a1"><button class="button " style="background-color:blue;">Options</button></a></th>
+<th><a href="activity.html" id="a1"><button class="button " style="background-color:blue;">Activity</button></a>
+</th>
+</table>
+<div id="id1">
+<table bgcolor="paleturquoise" height="310" border="1" width="250px">
+<tr>
+<th align="left" id="th2">Self/Linked Account Transfer>></th>
+</tr>
+<tr>
+<th align="left" id="th2">Third Party Transfer</th>
+</tr>
+<tr>
+<th align="left" id="th2">Status Inquiry</th>
+</tr>
+<tr>
+<th align="left" id="th2">Pending Transfers</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>IMPS Payment</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>RTGS Payment</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>NEFT Payment</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>Standing Instruction</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>Instant Money Transfer</th>
+</tr>
+<tr>
+<th align="left" id="th2"><b id="b1">+</b>PMNRF Payment</th>
+</tr>
+</table >
+</div>
+<div id="id2">
+<br>
+<hr><br><center><form>
+<table width="1000" bgcolor="white" border="1" id="t1">
+<tr>
+<th colspan="10" align="center" bgcolor="blue" id="th1">From(Debit)Account</th>
+</tr>
+<tr>
+<td><input type="radio" name="r3" checked></td>
+<td><select name="s1">
+<option  selected>AMAN KUMAR SINGH S/O JAY PRAKASH SINGH</option>
+<option>NONE</option>
+</select></td>
+</table><br>
+<table width="1000" bgcolor="white"  border="1" id="t1">
+<tr>
+<th colspan="15" align="center" bgcolor="blue" id="th1">To(credit)Account</th>
+</tr>
+<tr>
+<td><input type="radio" name="r2" checked></td>
+<td>My Account</td>
+<td><select name="s2">
+<option  selected>SATYA PRAKASH SINGH S/O MATIBAR SINGH</option>
+<option>NONE</option>
+</select></td>
+</tr>
+<tr>
+<td>Transfer Amount</td>
+<td><input type="text" required>INR</td>
+</tr>
+<tr>
+<td bgcolor="lightblue">Transaction Particular</td>
+<td bgcolor="lightblue" colspan="10"><input type="text"></td>
+</tr>
+<tr>
+<td colspan="5"><input type="radio" name="r1" required>Immediate</td>
+</tr>
+<tr>
+<td><input type="radio" name="r1" required>Schedule Transfer On Date</td>
+<td colspan="5"><input type="date"></td>
+</tr>
+</table><br>
+<input type="submit" value="Transfer">
+<input type="reset" value="Clear">
+<input type="button" value="Add To List">
+</center></form>
+</div>
+</body>
+</html>

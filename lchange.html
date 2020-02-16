@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Change Login Password</title>
+<style>
+.button { border: none;
+    color: white;
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+font-size:16px;
+    display: inline-block;
+   cursor: pointer;
+ font-style:italic;
+font-weight:bold;
+}
+table{border-collapse:collapse; border-color:lightblue; cursor:pointer;}
+#abc{
+background-color:paleturquoise;
+width:100%;
+height:80px;}
+#id1{
+float:left;
+margin-top:10px;
+width:200px;
+height:30px;
+}
+#id2{
+background-color:paleturquoise;
+color:blue;
+width:1100px;
+margin-left:252px;
+margin-top:10px;
+height:400px;
+}
+th{font-weight: bold; color:white; }
+
+td{font-weight: normal; color:black;}
+hr{border-width:1px; border-color:lightblue;}
+a1:active {
+    background-color:orange ;
+}
+#c1{color:grey;}
+.abcddd{
+	font-weight:bold;
+	display:inline-block;
+	font-size: 25px;
+	margin-bottom:20px;
+}
+</style>
+<script>
+function test()
+{
+confirm("Your login password has been changed!!!!!");
+}
+
+</script>
+</head>
+<body>
+<table  id="abc" >
+<tr>
+<th style="text-align:right; color:darkblue;"><p class="abcddd">WELCOME Mr.Shubham Gupta </p><img src="2017-03-24.png" width="200" height="80"align="left">
+<a href="homebms.html"><img src="2017-03-28 (3).png" height="55" width="55"></a>&nbsp;
+<a href="bms2.html"><img src="2017-03-28 (2).png"></a> <th>
+</tr>
+</table>
+<table  border="0" style="width:100%;" background="lightblue">
+<tr>
+<th><a href="accounts.html" id="a1"><button class="button "  style="background-color:blue;">Account</button></a> </th>
+<th><a href="trnsfers.html" id="a1"><button class="button " style="background-color:blue;">Transfer</button></a></th>
+<th><a href="taxpayment.html" id="a1"><button class="button " style="background-color:blue;">Tax Payments</button></a></th>
+<th><a href="demat.html" id="a1"><button class="button " style="background-color:blue;">Demat</button></a></th>
+<th><a href="option.html" id="a1"><button class="button " style="background-color:darkorange;">Options</button></a></th>
+<th><a href="activity.html" id="a1"><button class="button " style="background-color:blue;">Activity</button></a>
+</th>
+</table>
+<div id="id1">
+<table bgcolor="blue" height="30" border="1" width="250px">
+<tr>
+<th align="center">Change Password >></th>
+</tr>
+</table>
+</div>
+<div id="id2">
+<br>
+<hr>
+<center id="c1">Change Login Password
+</center><br>
+<center><form onsubmit="return test();">
+<table bgcolor="white" height="250" width="1000" border="1">
+<tr>
+<td align="center" colspan="3"><b>Please keep these in mind while changing your password</b></td>  
+</tr>
+<tr>
+<td colspan="3"><ol>
+<li>The password cannot consist of all the characters as are in your Username. For e.g.If your Username is "Bob", then your password cannot be "Bobby".</li>
+<li>Password should mandatorily contain both digits and letters.</li>
+<li>Spaces are not allowed in between Password.</li>
+<li>The Password should contain a minimum of 8 characters and a maximum of 28 characters.</li>
+<li>The Password should contain atleast 4 distinct characters.</li>
+<li>Your new password cannot be the same as any of your previous 1 password(s)</li>
+</ol></td>
+<tr>
+<tr>
+<td>Password</td>
+<td><input type="password" required></td>
+</tr>
+<tr>
+<td>New Password</td>
+<td><input type="password" required></td>
+</tr>
+<tr>
+<td>Retype New Password</td>
+<td><input type="password" required></td>
+</tr>
+</table><br><br>
+<input type="submit" value="     OK     ">
+<a href="option.html"><input type="button" value="  Back  "></a>
+</center></form>
+</div>
+</body>
+</html>
